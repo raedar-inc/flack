@@ -4,8 +4,7 @@ class App extends Component{
    render(){
       return(
          <Header/>
-         
-      );
+            );
    }
 }
 export default App;
