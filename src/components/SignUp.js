@@ -50,7 +50,7 @@ class SignUp extends Component{
         storage.push(this.state);
         localStorage.setItem("App_users",JSON.stringify(storage));
         console.log(storage);
-        this.setState({validation:true})// the validation state is changed to true after sending the data to local storage.
+        this.setState({validation:true})// the validation state is chenged to true after sending the data to local storage.
 
 
     }
@@ -62,7 +62,7 @@ class SignUp extends Component{
         //when the validation is set to true(meaning you are done with sign up), then is redirects you to the login
         if(this.state.validation){
             return (
-                <Redirect to="/SignIn"/>
+                <Redirect to="/"/>
             )
         }
         //this is simply a design on the form

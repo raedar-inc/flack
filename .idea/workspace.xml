@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47c630b7-a377-453c-a6b0-6c1cb33f3492" name="Default Changelist" comment="" />
+    <list default="true" id="47c630b7-a377-453c-a6b0-6c1cb33f3492" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,13 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\WORKSPACE\flack\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1V9pjzRz8TXgGvbhrTtxDK4zvdo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -94,6 +104,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577190457894" />
+    <state x="129" y="54" width="1226" height="620" key="MergeDialog" timestamp="1577265679004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" width="1226" height="620" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1577265679004" />
+    <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1577265679035">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1577265679035" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1576939819837">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
