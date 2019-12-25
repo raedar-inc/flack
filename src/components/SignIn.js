@@ -17,23 +17,23 @@ class SignIn extends Component{
         let users = JSON.parse(localStorage.getItem("App_users"))
         for(let x of users) {
             if(x.userName.trim() === this.state.userName.trim() && x.Password.trim() === this.state.Password.trim()){
-                this.setState({Authorise:true})
+                this.setState({Authorise:true});
                 return(
                     console.log(x.userName + "is found ")
-                )
+                );
             }
-        }
-        return alert(this.state.userName + " is not found please sign up")
+        };
+        return alert(this.state.userName + " is not found please sign up");
     }
     //this handles the input and updates the state
     handleInput(e){
-        this.setState({[e.target.name] : e.target.value})
+        this.setState({[e.target.name] : e.target.value});
     }
     render(){
         let c =  this.state.userName;
         let design ={
             width: 700
-        }
+        };
         if(this.state.Authorise){
             return (
                 //this redirects you to the dashboard after signing in .ie if Authorise is true.
@@ -77,7 +77,7 @@ class SignIn extends Component{
                                 required
                             />
                         </div> <br/>
-                        <button className='btn bg-success' onClick={this.logIn}> Sign In</button>
+                        <button className='btn bg-success' onClick={this.logIn}> Log In</button>
 
                     </form>
                     <div className='text-sm-right '>
