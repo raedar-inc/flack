@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47c630b7-a377-453c-a6b0-6c1cb33f3492" name="Default Changelist" comment="">
+    <list default="true" id="3bbf9c02-b587-4b07-83b1-2e77805dc54b" name="Default Changelist" comment="CHARTROOM_TEMPLATE">
+      <change afterPath="$PROJECT_DIR$/src/components/ChartBoard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/charts.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="tsconfig.json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -20,19 +32,18 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Abdallah Idriss Lutaaya" />
+        <option value="usamaidrsk &lt;usamaidris567@gmail.com&gt;" />
+        <option value="usama idriss" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="E:\WORKSPACE\flack\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1V9pjzRz8TXgGvbhrTtxDK4zvdo" />
+  <component name="ProjectId" id="1V3hXhvyeBTRqMCPHJ2Lf1LQV5F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,9 +51,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.splitter.proportion" value="0.24020016" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\flack" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -56,81 +78,141 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47c630b7-a377-453c-a6b0-6c1cb33f3492" name="Default Changelist" comment="" />
-      <created>1576675304044</created>
+      <changelist id="3bbf9c02-b587-4b07-83b1-2e77805dc54b" name="Default Changelist" comment="" />
+      <created>1576487726941</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576675304044</updated>
-      <workItem from="1576675310478" duration="20398000" />
-      <workItem from="1576915941161" duration="10634000" />
-      <workItem from="1577189909554" duration="1137000" />
+      <updated>1576487726941</updated>
+      <workItem from="1576487730523" duration="3590000" />
+      <workItem from="1576496212672" duration="3454000" />
+      <workItem from="1576499910009" duration="1104000" />
+      <workItem from="1576501055169" duration="448000" />
+      <workItem from="1576568842566" duration="13791000" />
+      <workItem from="1576595733642" duration="4555000" />
+      <workItem from="1576645370381" duration="6290000" />
+      <workItem from="1576672129405" duration="3390000" />
+      <workItem from="1576687310324" duration="13988000" />
+      <workItem from="1576728395204" duration="1353000" />
+      <workItem from="1576773977791" duration="2835000" />
+      <workItem from="1576912217794" duration="595000" />
+      <workItem from="1576925754297" duration="5761000" />
+      <workItem from="1576943754388" duration="7236000" />
+      <workItem from="1577135293525" duration="570000" />
+      <workItem from="1577135889320" duration="859000" />
+      <workItem from="1577186570972" duration="4303000" />
+      <workItem from="1577219070784" duration="1640000" />
+      <workItem from="1577248293983" duration="9745000" />
+      <workItem from="1577271028047" duration="557000" />
+      <workItem from="1577271755898" duration="39000" />
+      <workItem from="1577271797041" duration="1051000" />
+      <workItem from="1577281370781" duration="648000" />
+      <workItem from="1577435930348" duration="3361000" />
+      <workItem from="1577988520724" duration="5393000" />
+      <workItem from="1578214442423" duration="1483000" />
+      <workItem from="1578378906622" duration="3100000" />
+      <workItem from="1578426134964" duration="18028000" />
+      <workItem from="1579078448963" duration="26985000" />
+      <workItem from="1579119464635" duration="3472000" />
+      <workItem from="1579288476062" duration="246000" />
+      <workItem from="1579322895569" duration="2821000" />
     </task>
-    <task id="LOCAL-00001" summary="Created login and Sign in with local storage">
-      <created>1577190110743</created>
+    <task id="LOCAL-00001" summary="login and signup pages">
+      <created>1577191530315</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1577190110743</updated>
+      <updated>1577191530315</updated>
     </task>
-    <task id="LOCAL-00002" summary="login,signUp using localstorage">
-      <created>1577190459238</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1577190459238</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created login and Sign in with local storage" />
-    <MESSAGE value="login,signUp using localstorage" />
-    <option name="LAST_COMMIT_MESSAGE" value="login,signUp using localstorage" />
+    <MESSAGE value="login and signup pages" />
+    <MESSAGE value="CHARTROOM_TEMPLATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHARTROOM_TEMPLATE" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="21" key="#Inspections" timestamp="1576759622165">
+    <state x="275" y="21" key="#Notifications" timestamp="1577192844143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="21" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1576759622165" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1577190457894">
+    <state x="275" y="21" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1577192844143" />
+    <state x="461" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576489969505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577190457894" />
-    <state x="129" y="54" width="1226" height="620" key="MergeDialog" timestamp="1577265679004">
+    <state x="461" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1576489969505" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577187109573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="54" width="1226" height="620" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1577265679004" />
-    <state x="395" y="79" key="MultipleFileMergeDialog" timestamp="1577265679035">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1577187109573" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579367166059">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="395" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1577265679035" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1576939819837">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579367166059" />
+    <state x="100" y="100" width="630" height="528" key="DiffContextDialog" timestamp="1576667364457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576939819837" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/SignUp.js</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts</url>
-          <line>389</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="100" y="100" width="630" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1576667364457" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1577988512376">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577988512376" />
+    <state x="394" y="80" key="MultipleFileMergeDialog" timestamp="1577270680861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="394" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1577270680861" />
+    <state x="151" y="0" key="SettingsEditor" timestamp="1577248418867">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577248418867" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1577191608257">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1577191608257" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576774606496">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1576774606496" />
+    <state x="462" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1577270657953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="77" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1577270657953" />
+    <state x="416" y="155" key="git4idea.merge.GitPullDialog" timestamp="1578378605848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="155" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1578378605848" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1576500996530">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576500996530" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579188464714">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579188464714" />
+    <state x="405" y="276" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1578379209732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="405" y="276" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1366.728@0.0.1366.728" timestamp="1578379209732" />
   </component>
 </project>

@@ -1,3 +1,4 @@
+/*
 import React from "react"
 function  Navbar(props) {
     //this is imply a navbar.it is currents not functional
@@ -16,13 +17,11 @@ function  Navbar(props) {
                 </div>
                 <div className="text-white">
                     <span> logged in as : <b>{props.name} </b></span>
-
-
                 </div>
-
             </div>
         </nav>
     )
 
 }
 export default Navbar
+*/
