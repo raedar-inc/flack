@@ -14,49 +14,10 @@ class SignUp extends Component{
             email :"",
             Password: "",
             validation: false
-
         }
         this.handleInput = this.handleInput.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
     }
-    //this handles input from the form.and updates the state accordingly
-    handleInput(e){
-        this.setState({[e.target.name] : e.target.value})
-    }
-    // component did mount is a lifecycle method.it is called first when ever you visit this page.
-    componentDidMount() {
-        // here simply check in browser to see if there is a local storage of App_users,if so it does nothing if not then its makes it/creates it
-        if(localStorage.getItem("App_users")){
-            let users = JSON.parse(localStorage.getItem("App_users"))
-        }
-        else{
-            localStorage.setItem("App_users","[]")
-        }
-    }
-    //this handles submission of data to the local storage.first checks to see if the username provided and the email aren't used already
-    handleSubmit(event){
-        event.preventDefault()
-        let storage = JSON.parse(localStorage.getItem("App_users"))
-
-        for(let x of storage) {
-            if (x.userName === this.state.userName) {
-                return alert("username " + x.username + "is already taken")
-            }
-            else if (x.email === this.state.email){
-                return alert(x.email + "is already taken")
-            }
-
-        }
-        storage.push(this.state);
-        localStorage.setItem("App_users",JSON.stringify(storage));
-        console.log(storage);
-        this.setState({validation:true})// the validation state is chenged to true after sending the data to local storage.
-
-
-    }
-
-
-   
 
     render(){
         //when the validation is set to true(meaning you are done with sign up), then is redirects you to the login
@@ -89,12 +50,13 @@ class SignUp extends Component{
                         <div className="form-group">
                             <label>First Name</label>
                             <input
-                            type='text'
-                            className="form-control form-control-lg"
-                            name = 'firstName'
-                            value={this.state.firstName}
-                            onChange={this.handleInput}
-                            required
+                                type='text'
+                                className="form-control form-control-lg"
+                                name = 'firstName'
+                                value={this.state.firstName}
+                                onChange={this.handleInput}
+                                autoComplete="off"
+                                required
                             />
                         </div>
 
@@ -107,6 +69,7 @@ class SignUp extends Component{
                                 name = 'lastName'
                                 value={this.state.lastName}
                                 onChange={this.handleInput}
+                                autoComplete="off"
                                 required
                             />
                         </div>
@@ -166,5 +129,42 @@ class SignUp extends Component{
             </div>
         )
     }
+
+    //this handles input from the form.and updates the state accordingly
+    handleInput(e){
+        this.setState({[e.target.name] : e.target.value})
+    }
+    // component did mount is a lifecycle method.it is called first when ever you visit this page.
+    componentDidMount() {
+        // here simply check in browser to see if there is a local storage of App_users,if so it does nothing if not then its makes it/creates it
+        if(localStorage.getItem("App_users")){
+            let users = JSON.parse(localStorage.getItem("App_users"))
+        }
+        else{
+            localStorage.setItem("App_users","[]")
+        }
+    }
+    //this handles submission of data to the local storage.first checks to see if the username provided and the email aren't used already
+    handleSubmit(event){
+        event.preventDefault()
+        let storage = JSON.parse(localStorage.getItem("App_users"))
+
+        for(let x of storage) {
+            if (x.userName === this.state.userName) {
+                return alert("username " + x.username + "is already taken")
+            }
+            else if (x.email === this.state.email){
+                return alert(x.email + "is already taken")
+            }
+
+        }
+        storage.push(this.state);
+        localStorage.setItem("App_users",JSON.stringify(storage));
+        console.log(storage);
+        this.setState({validation:true})// the validation state is chenged to true after sending the data to local storage.
+
+
+    }
+
 }
 export default SignUp;

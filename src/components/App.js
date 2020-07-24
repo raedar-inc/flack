@@ -1,10 +1,11 @@
+'use strict';
 import React, { Component } from 'react';
 import { Route , Switch} from "react-router";
 import {BrowserRouter} from "react-router-dom";
 
 import SignUp  from "./SignUp";
 import SignIn from "./SignIn";
-import Dashboard from "./Dashboard";
+import {Dashboard} from "./Dashboard";
 import err404 from "./404";
 class App extends Component{
     render(){
@@ -21,7 +22,7 @@ class App extends Component{
                 </BrowserRouter>
 
             </div>
-    )
+        )
     }
 }
 export default App;

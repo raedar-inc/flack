@@ -11,28 +11,10 @@ class SignIn extends Component{
         this.handleInput = this.handleInput.bind(this)
         this.logIn = this.logIn.bind(this)
     }
-    //this handles the login.checks if the user is there
-    logIn(event) {
-        event.preventDefault()//this prevents the page from refreshing when you submit the form
-        let users = JSON.parse(localStorage.getItem("App_users"))
-        for(let x of users) {
-            if(x.userName.trim() === this.state.userName.trim() && x.Password.trim() === this.state.Password.trim()){
-                this.setState({Authorise:true});
-                return(
-                    console.log(x.userName + "is found ")
-                );
-            }
-        };
-        return alert(this.state.userName + " is not found please sign up");
-    }
-    //this handles the input and updates the state
-    handleInput(e){
-        this.setState({[e.target.name] : e.target.value});
-    }
+
     render(){
-        let c =  this.state.userName;
         let design ={
-            width: 700
+            width: 700,
         };
         if(this.state.Authorise){
             return (
@@ -90,6 +72,25 @@ class SignIn extends Component{
                 </div>
             </div>
         )
+    }
+
+    //this handles the login.checks if the user is there
+    logIn(event) {
+        event.preventDefault()//this prevents the page from refreshing when you submit the form
+        let users = JSON.parse(localStorage.getItem("App_users"))
+        for(let x of users) {
+            if(x.userName.trim() === this.state.userName.trim() && x.Password.trim() === this.state.Password.trim()){
+                this.setState({Authorise:true});
+                return(
+                    console.log(x.userName + "is found ")
+                );
+            }
+        };
+        return alert(this.state.userName + " is not found please sign up")
+    }
+    //this handles the input and updates the state
+    handleInput(e){
+        this.setState({[e.target.name] : e.target.value});
     }
 }
 export default SignIn;
